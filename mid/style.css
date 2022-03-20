@@ -23,7 +23,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid white; */
     width: 100%;
 }
 
@@ -36,7 +35,6 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    /* border: 2px solid red; */
     width: 50vw;
 }
 
@@ -49,14 +47,9 @@
     width: 100%;
     font-size: 25px;
     color: #ffffff;
-    /* border: 2px solid white; */
 
 }
 
-/* .text-box-cta{
-    border: 2px solid red;
-
-} */
 
 .cta-btn{
     width: 100%;
