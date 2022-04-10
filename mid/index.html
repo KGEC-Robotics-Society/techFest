@@ -1,76 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+      <section class="redundant"></section>
     <section class="tf-past-events">
-        <header class="tf-past-events-header"> sOME pAST eVENTS</header>
-        <br>
-        <div class="tf-past-events-box">
-            <div class="tf-past-events-text-box">
-                <div class="text-box-header">What is Tech Fest ?</div>
-                <br><br>
-                <div class="text-box-write-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                    voluptatibus tempore libero! Vitae quod atque ipsum porro alias ullam repellendus veritatis mollitia
-                    illo!</div>
-                <br><br>
-                <div class="text-box-cta">
-                    <a href="">
-                        <button class="cta-btn">EXPLORE MORE</button>
-                    </a>
-                </div>
-            </div>
-            <div class="tf-past-events-img">
-                <img src="https://raw.githubusercontent.com/KGEC-Robotics-Society/assets/main/gallery/techfest-images/Image2.jpg" alt="">
-            </div>
+      <header class="tf-past-events-header">sOME pAST eVENTS</header>
+      <br />
+      <div class="tf-past-events-box">
+        <div class="tf-past-events-text-box">
+          <div class="text-box-header">What is Tech Fest ?</div>
+          <br /><br />
+          <div class="text-box-write-up">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            voluptatibus tempore libero! Vitae quod atque ipsum porro alias
+            ullam repellendus veritatis mollitia illo!Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Aliquid voluptatibus tempore libero!
+            Vitae quod atque ipsum porro alias ullam repellendus veritatis
+            mollitia illo!<br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            voluptatibus tempore libero! Vitae quod atque ipsum porro alias
+            ullam repellendus veritatis mollitia illo!
+          </div>
+          <br /><br />
+          <div class="text-box-cta">
+            <a href="">
+              <button class="cta-btn">EXPLORE MORE</button>
+            </a>
+          </div>
         </div>
-        <br><br><br>
-        <div class="tf-past-events-box">
-            <div class="tf-past-events-img">
-                <img src="https://raw.githubusercontent.com/KGEC-Robotics-Society/assets/main/gallery/techfest-images/Image3.jpg" alt="">
-            </div>
-            <br>
-            <div class="tf-past-events-text-box right" id="align">
-                <div class="text-box-header ">What is Tech Fest ?</div>
-                <br><br>
-                <div class="text-box-write-up ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
-                    ratione quod consequuntur, fugit excepturi rerum, aliquam accusamus, enim animi illo at iusto illum
-                    dolorem doloremque vero! Hic eos aperiam eaque ea nisi pariatur placeat, at soluta aspernatur saepe
-                    distinctio? Ut necessitatibus ea tempora reprehenderit vel. Vitae, aut nulla libero fugit beatae
-                    odit consequatur facere labore est ducimus distinctio soluta accusantium dolor maiores nobis enim
-                    dicta, recusandae consequuntur itaque a sit! Eligendi tempore deleniti ipsam distinctio nemo est
-                    iure nesciunt quod?</div>
-                <br><br>
-                <div class="text-box-cta">
-                    <a href="">
-                        <button class="cta-btn">EXPLORE MORE</button>
-                    </a>
-                </div>
-            </div>
+        <div class="tf-past-events-img parallax1">
+          <img
+           
+            src="https://raw.githubusercontent.com/KGEC-Robotics-Society/assets/main/gallery/techfest-images/Image2.jpg"
+            alt=""
+          />
         </div>
+      </div>
+      <br /><br /><br />
+      <div class="tf-past-events-box">
+        <div class="tf-past-events-img parallax2">
+          <img
+          class="image2"
+            src="https://raw.githubusercontent.com/KGEC-Robotics-Society/assets/main/gallery/techfest-images/Image3.jpg"
+            alt=""
+          />
+        </div>
+        <br />
+        <div class="tf-past-events-text-box right" id="align">
+          <div class="text-box-header right">What is Tech Fest ?</div>
+          <br /><br />
+          <div class="text-box-write-up right">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam
+            ratione quod consequuntur, fugit excepturi rerum, aliquam accusamus,
+            enim animi illo at iusto illum dolorem doloremque vero! Hic eos
+            aperiam eaque ea nisi pariatur placeat, at soluta aspernatur saepe
+            distinctio? Ut necessitatibus ea tempora reprehenderit vel. Vitae,
+            aut nulla libero fugit beatae odit consequatur facere labore est
+            ducimus distinctio soluta accusantium dolor maiores nobis enim
+            dicta, recusandae consequuntur itaque a sit! Eligendi tempore
+            deleniti ipsam distinctio nemo est iure nesciunt quod?
+          </div>
+          <br /><br />
+          <div class="text-box-cta">
+            <a href="">
+              <button class="cta-btn">EXPLORE MORE</button>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <script>
-        const tfBox= document.getElementById("align");
+      const tfBox = document.getElementById("align");
 
-        function alignment(elem) {
-            if (elem.matches) { 
-                tfBox.classList.remove("right");
-            } else {
-                tfBox.classList.add("right");
-            }
+      function alignment(elem) {
+        if (elem.matches) {
+          tfBox.classList.remove("right");
+        } else {
+          tfBox.classList.add("right");
         }
+      }
 
-        elem = window.matchMedia("(max-width: 540px)");
-        alignment(elem) ;
-        elem.addListener(alignment);
+      elem = window.matchMedia("(max-width: 540px)");
+      alignment(elem);
+      elem.addListener(alignment);
+
+      // parallax scrolling effect
+      window.addEventListener("scroll", () => {
+        const parallax1 = document.querySelector(".parallax1");
+        const parallax2 = document.querySelector(".parallax2");
+        // const parallax3 = document.querySelector(".parallax3");
+
+        let scrollposition = window.pageYOffset;
+        // console.log(scrollposition);
+
+        parallax1.style.transform =
+          "translateY(-" + scrollposition * 0.5+ "px)";
+          
+        parallax2.style.transform =
+          "translateY(-" + scrollposition * 0.3 + "px)";
+        // parallax3.style.transform =
+        //   "translateY(-" + scrollposition * 0.8 + "px)";
+      });
     </script>
-</body>
-
+  </body>
 </html>
