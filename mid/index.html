@@ -9,6 +9,8 @@
   </head>
 
   <body>
+    <div class="cursor cursor1"></div>
+    <div class="cursor cursor2"></div>
       <section class="redundant"></section>
     <section class="tf-past-events">
       <header class="tf-past-events-header">sOME pAST eVENTS</header>
@@ -76,6 +78,50 @@
         </div>
       </div>
     </section>
+    <section class="gallery_section">
+      <h1 class="tf-past-events-header tf-gallery-heading ">eXPLORE oUR gALLERY</h1>
+    <div class="tf-gallery ">
+        <div class="tf-gallery-container" id="img1">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image4.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image5.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image6.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/image13.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image3.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container" id="img6">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/image15.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container" id="img7">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image10.jpg?raw=true"
+                alt="">
+        </div>
+        <div class="tf-gallery-container" id="img8">
+            <img src="https://github.com/KGEC-Robotics-Society/assets/blob/main/gallery/techfest-images/Image12.jpg?raw=true"
+                alt="">
+        </div>
+       <div class="tf-gallery-container" id="explore-more">
+           <h2>WANNA SEE MORE??</h2>
+           <p>I KNOW YOU<br>NOW INTO<br>IT :)</p>
+           <p>SO WHAT ARE YOU THINKING</p>
+           <a href="#" class="btn">EXPLORE MORE</a>
+       </div>
+
+    </div>
+    </section >
     <script>
       const tfBox = document.getElementById("align");
 
@@ -101,7 +147,7 @@
         // console.log(scrollposition);
 
         parallax1.style.transform =
-          "translateY(-" + scrollposition * 0.5+ "px)";
+          "translateY(-" +( (scrollposition * 0.5) )+ "px)";
           
         parallax2.style.transform =
           "translateY(-" + scrollposition * 0.3 + "px)";
