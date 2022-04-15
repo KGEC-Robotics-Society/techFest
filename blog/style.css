@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+/* Header  */
+
+.tf-blog-container{
+    padding: 5rem;
+    background-color: #342764;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.tf-blog-header{
+    width: 50%;
+    font-size: 40px;
+    color: #f8e004;
+    align-self: flex-start;
+}
+
+.tf-blog-subheader{
+    align-self: flex-start;
+    color: #ffffff;
+}
+
+.tf-blog-header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-image{
+    width: 35rem;
+    height: 20rem;
+    z-index: 5;
+    background-color: #ffffff;
+}
+
+.header-content{
+    text-align: end;
+    width: 30vw;
+    color: #ffffff;
+    align-self: flex-start;
+}
+
+/* Main  */
+
+
+.tf-blog-section{
+    position: relative;
+    bottom: 12rem;
+}
+
+.tf-blog-main-box{
+    background-color: #d3e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.text-box-header{
+    align-self: flex-start;
+    font-size: 35px;
+    width: 100%;
+}
+
+.tf-blog-text-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-write-up{
+    width: 50%;
+    min-height: 20rem;
+}
+
+.blog-img{
+    width: 40vw;
+    height: 20rem;
+    background-color: #ffffff;
+}
+
+.long-img{
+    height: 40rem;
+    width: 40vw;
+    background-color: #ffffff;
+}
+
+/* Text Section  */
+
+.tf-blog-text-section{
+    padding: 5rem;
+    background-color: #d3e0e0;
+}
+
+/* Pagenation and Links  */
+
+.tf-blog-page-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    background-color: #d3e0e0;
+}
+
+.tf-blog-links ul{
+    width: 20vw;
+}
+
+.tf-blog-links ul > li{
+    text-align: end;
+    list-style: none;
+    padding: 0.3rem;
+}
+
+#linkFirst::after,
+#linkSecond::after,
+#linkThird::after,
+#linkFourth::after
+{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    padding-top: 0.2rem; 
+    border-bottom: 1px solid black;
+    margin-right: 0rem;
+}
+
+#linkFirst::after{
+    width: 60%;
+}
+
+#linkSecond::after{
+    width: 70%;
+}
+
+#linkThird::after{
+    width: 90%;
+}
+
+#linkFourth::after{
+    width: 50%;
+}
+
+
+/* Footer  */
+
+footer{
+    padding: 2rem 5rem;
+    background-color: #d3e0e0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.right{
+    text-align: right;
+}
+
