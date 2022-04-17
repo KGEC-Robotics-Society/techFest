@@ -13,16 +13,11 @@ $white: #fff;
   -webkit-tap-highlight-color: transparent;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   background-color: $dark-blue;
   color: $white;
-  overflow: hidden;
   min-height: 100vh;
   width: 100%;
 }
@@ -34,6 +29,7 @@ body {
   align-items: center;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .hero-img-div {
@@ -50,11 +46,13 @@ body {
   width: 0;
   overflow: hidden;
   position: absolute;
+  left: 40px;
   z-index: 5;
   font-size: 12vw;
   font-weight: 800;
   letter-spacing: 8px;
   animation: animate 6s forwards;
+  text-align: left;
 }
 
 @keyframes animate {
@@ -108,7 +106,7 @@ body {
 }
 
 @media only screen and (max-width: 548px) {
-  .hero-container {
-    justify-content: center;
+  .hero-title {
+    left: 24px;
   }
 }

@@ -9,16 +9,11 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   background-color: #00020f;
   color: #fff;
-  overflow: hidden;
   min-height: 100vh;
   width: 100%;
 }
@@ -34,6 +29,7 @@ body {
           align-items: center;
   position: relative;
   z-index: 1;
+  overflow: hidden;
 }
 
 .hero-img-div {
@@ -52,12 +48,14 @@ body {
   width: 0;
   overflow: hidden;
   position: absolute;
+  left: 40px;
   z-index: 5;
   font-size: 12vw;
   font-weight: 800;
   letter-spacing: 8px;
   -webkit-animation: animate 6s forwards;
           animation: animate 6s forwards;
+  text-align: left;
 }
 
 @-webkit-keyframes animate {
@@ -134,10 +132,8 @@ body {
 }
 
 @media only screen and (max-width: 548px) {
-  .hero-container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .hero-title {
+    left: 24px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=hero.css.map */
