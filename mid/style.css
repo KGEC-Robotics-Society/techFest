@@ -163,8 +163,20 @@ body {
     background-color: rgb(0, 5, 24);
 }
 
-.tf-gallery-heading {
+/* .tf-gallery-heading {
    margin-left: 5.5rem;
+   text-align: left;
+} */
+
+.tf-gallery-heading {
+    justify-content: center;
+    color: white;
+    font-size: 5.5rem;
+    text-align: left;
+    padding: 30px 50px 0px;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-weight: 900;
 }
 
 .tf-gallery {
