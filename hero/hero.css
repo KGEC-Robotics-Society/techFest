@@ -137,6 +137,21 @@ body {
 @media only screen and (max-width: 548px) {
   .hero-title {
     left: 24px;
+    letter-spacing: 4px;
+    font-size: 52px;
+  }
+  .slider-text-container {
+    bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-title {
+    letter-spacing: 4px;
+    font-size: 48px;
+  }
+  .slider-text-container {
+    bottom: 90px;
   }
 }
 /*# sourceMappingURL=hero.css.map */
