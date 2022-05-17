@@ -194,6 +194,7 @@ body {
   align-items: center;
   color: white;
   margin: auto;
+  width: 100%;
 }
 
 #explore-more a {
@@ -238,6 +239,9 @@ body {
   #explore-more {
     grid-column-start: 1;
     grid-column-end: 3;
+  }
+  #explore-more {
+    width: max-content;
   }
 }
 
@@ -296,6 +300,10 @@ body {
   .tf-past-events-header,
   .tf-gallery-heading {
     font-size: 32px;
+  }
+
+  #explore-more {
+    width: 100%;
   }
 
   #explore-more h2 {
