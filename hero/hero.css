@@ -9,6 +9,21 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: lightgray; */
+  background: #00020f;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #0089ff; */
+  background: #ff4281;
+  border-radius: 6px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;

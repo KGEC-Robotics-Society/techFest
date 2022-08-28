@@ -13,6 +13,21 @@ $white: #fff;
   -webkit-tap-highlight-color: transparent;
 }
 
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: lightgray; */
+  background: $dark-blue;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #0089ff; */
+  background: rgb(255, 66, 129);
+  border-radius: 6px;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
