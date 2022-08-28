@@ -78,6 +78,10 @@ button {
   line-height: 30px;
 }
 
+.text-box-write-up ul {
+  list-style: none;
+}
+
 .btn-primary {
   color: white;
   background-color: rgb(255, 66, 129);
@@ -108,7 +112,7 @@ button {
     font-size: 16px;
   }
   .tf-past-events-text-box {
-    margin: 2rem 0;
+    margin: 6rem 0 0;
     padding: 0;
   }
 
